@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Ceilidh Simon's Web Portfolio</title>
     <div class = 'navBar'>
-        <a href="index.html">Home</a>
+        <a href="index.md">Home</a>
         <a href="Resume.html">Resume</a>
         <a href="Volunteering.html">Volunteering</a>
         <a href="PersonalProjects.html">Personal Projects</a>
