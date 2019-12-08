@@ -86,10 +86,10 @@ ul{
 /*Main Page*/
 .mainPic{
     float: right;
-    width: 20vw;
+    width: 25vw;
     margin-left: auto;
     margin-right: 5vw;
-    margin-top: 5vh;
+    margin-top: 7.5vh;
     border-radius: 5%;
     border: 2px solid var(--accentColor);
     vertical-align: middle;
@@ -97,17 +97,17 @@ ul{
 
 .mainContent{
     float: left;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 5%;
     color: var(--accentColor);
     background: var(--mainColor);
     width: 50vw;
-    height: 360px;
-    margin-top: 8vh;
+    height: 500px;
+    margin-top: 5vh;
     margin-left: 5vw;
     margin-right: auto;
     margin-bottom: 5vh;
-    padding-top: 2vh;
+    padding-top: 2vw;
     padding-bottom: 2vh;
     padding-left: 1vw;
     padding-right: 1vw;
