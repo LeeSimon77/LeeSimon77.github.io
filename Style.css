@@ -42,7 +42,7 @@ ul{
 
 .navIcons{
     height: 100%;
-    margin-left: 85px;
+    margin-left: 95px;
     width: auto;
 }
 
@@ -73,7 +73,7 @@ ul{
     float: left;
     margin-top:  3px;
     margin-bottom: 3px;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-right: 3px;
     padding: 0;
     border: 2px solid var(--accentColor);
