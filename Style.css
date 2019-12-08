@@ -1,19 +1,40 @@
 /*Overall*/
+:root{
+    --mainColor: rgb(81,98,108);
+    --highlight: rgb(66,77,79);
+    --backColor: rgb(167,184,181);
+    --accentColor: rgb(254,245,216);
+    
+}
 body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: var(--backColor);
 }
 
 button{
     font-family: inherit;
 }
 
+h1{
+    color: var(--accentColor);
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 1vh;
+    color: var(--accentColor);
+}
+
+ul{
+    margin: 0;
+}
 /*Nav bar*/
 .navBar{
     width: 100vw;
     height: 60px;
-    background: slateblue;
+    background:  var(--mainColor);
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -35,8 +56,8 @@ button{
     padding-right: 0;
     margin: 0;
     font-size:  20px;
-    color: whitesmoke;
-    background: slateblue;
+    color: var(--accentColor);
+    background: var(--mainColor);
     text-align: center;
     border-left: none;
     border-right: none;
@@ -45,7 +66,7 @@ button{
 }
 
 .navButton:hover{
-    background: blueviolet;
+    background: var(--highlight);
 }
 
 .navPic{
@@ -55,9 +76,41 @@ button{
     margin-left: 5px;
     margin-right: 3px;
     padding: 0;
-    border: 2px solid whitesmoke;
+    border: 2px solid var(--accentColor);
     image-orientation: from-image;
     width: 50px;
     border-radius: 50%;
+    vertical-align: middle;
+}
+
+/*Main Page*/
+.mainPic{
+    float: right;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    border-radius: 5%;
+    border: 2px solid var(--accentColor);
+    vertical-align: middle;
+}
+
+.mainContent{
+    float: left;
+    font-size: 15px;
+    border-radius: 5%;
+    color: var(--accentColor);
+    background: var(--mainColor);
+    width: 50vw;
+    height: 360px;
+    margin-top: 8vh;
+    margin-left: 5vw;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
     vertical-align: middle;
 }
