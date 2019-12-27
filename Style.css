@@ -6,6 +6,11 @@
     --accentColor: rgb(254,245,216);
     
 }
+
+a{
+  color: var(--backColor);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -15,16 +20,25 @@ body{
 
 button{
     font-family: inherit;
+    background-color: var(--accentColor);
 }
 
 h1{
     color: var(--accentColor);
 }
 
+h2{
+  color: var(--accentColor);
+}
+
 h3{
     margin-top: 0;
     margin-bottom: 1vh;
     color: var(--accentColor);
+}
+
+p{
+  color: var(--accentColor);
 }
 
 ul{
@@ -129,3 +143,103 @@ ul{
     text-align: center;
     vertical-align: middle;
 }
+
+/*Personal Projects*/
+/*carousel based on tutorial from Christian Heilmann, link: https://christianheilmann.com/2015/04/08/keeping-it-simple-coding-a-carousel/*/
+.carouselbox {
+    font-family: helvetica,sans-serif;
+    font-size: 14px;
+    width: 30vw;
+    position: relative;
+    margin: 1em;
+    border: 1px solid var(--accentColor);
+    box-shadow: 2px 2px 10px var(--accentColor);
+    background-color: var(--highlight);
+    overflow: hidden;
+    float: right;
+    margin-right: 15px;
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+  .content li {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    z-index: 2;
+  }
+  .active {
+    height: 35vh;
+  }
+  .active li {
+    position: absolute;
+    top: 200px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 1s;
+  }
+  .active li.current {
+    top: 30px;
+    opacity: 1;
+    transform: scale(1);
+    transition: 1s;
+  }
+  .buttons {
+    display: none;
+  }
+  .active .buttons {
+    display: block;
+    padding: 5px 0;
+    background: var(--accentColor);
+    z-index: 10;
+    position: relative;
+  }
+  .carouselbox button {
+    border: none;
+    visibility: hidden;
+  }
+  .active button {
+    visibility: visible;
+  } 
+  .offscreen {
+    position: absolute;
+    left: -2000px;
+  }
+
+  .carouselItem{
+    height: 31vh;
+  }
+
+  .next{
+    float: right;
+  }
+  
+  .previous{
+   float: left;
+  }
+
+  .car1{
+    margin-top: 10vh;
+    margin-right: 2vw;
+  }
+
+  .caterpeelerContent{
+    font-size: 18px;
+    border-radius: 5%;
+    text-align: center;
+    background-color: var(--highlight);
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 35vw;
+    margin-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+    vertical-align: middle;
+  }

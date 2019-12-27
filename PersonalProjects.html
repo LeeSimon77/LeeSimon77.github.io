@@ -6,6 +6,7 @@
     <title>Ceilidh Simon's Web Portfolio</title>
     <link rel="icon" href="./Assets/logo.png">
   </head>
+
   <body>
       <div class = 'navBar'>
           <a href="index.html"><img class = 'navPicLeft' src="./Assets/profile.png"></a>
@@ -18,7 +19,54 @@
             <button class = 'navButton' type="button" onclick="location.href='PersonalLife.html';">Personal Life</button>
           </div>
         </div>
-    <h1>This is where personal projects will go</h1>
-    <p>Hello world</p>
+
+    
+    <div class="caterpeeler">
+      <div id = "car1" class="carouselbox car1">
+        <div class="buttons">
+          <button class="prev">
+             ◀ <span class="offscreen">Previous</span>
+         </button>
+          <button class="next">
+           <span class="offscreen">Next</span> ▶ 
+          </button>
+       </div>
+        <ol class="content">
+          <li><img class="carouselItem" src="Assets\CaterpeelerHome.png"></li>
+          <li><img class="carouselItem" src="Assets\Caterpeeler2.png"></li>
+          <li><img class="carouselItem" src="Assets\Caterpeeler3.png"></li>
+        </ol>
+      </div>
+
+      <div class="caterpeelerContent">
+        <h1>Caterpeeler</h1>
+        <h2>Made for the 2019 University of Manitoba Computer Science Students' Association Game Jam</h2>
+        <p> Caterpeeler is a game where you are a little caterpillar, who wants to eat leaves and become a butterfly. The world is a dangerous place for the caterpeeler, who must hide from birds, avoid spiders, and stay on the branch to complete their goal.
+          <br><br>I made this game for my first ever game jam. I worked with a team of four other people, only one of them with Unity experience. I was largely responsible for the caterpillar itself (locomotion, control, and final look)
+          and some of the leaf hiding mechanics, as well as general brainstorming and problem solving with team members. This project was probably the fastest I have ever picked up knowledge on an area of coding, and introduced me to how
+          complex game design can be.
+        </p>
+        <h3>Get it on <a href="https://markrobitaille.itch.io/caterpeeler" target="_blank">itch.io</a> or find the code <a href="https://github.com/LeeSimon77/Caterpeeler" target="_blank">here</a></h3>
+      </div>
+    </div>
+
+    <!-- <div id="car2" class="carouselbox car2">
+      <div class="buttons">
+        <button class="prev">
+           ◀ <span class="offscreen">Previous</span>
+        </button>
+        <button class="next">
+          <span class="offscreen">Next</span> ▶ 
+        </button>
+      </div>
+      <ol class="content">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ol>
+    </div> -->
+
+    <script src="CarouselScript.js"></script>
   </body>
 </html>
