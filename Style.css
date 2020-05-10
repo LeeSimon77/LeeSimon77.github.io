@@ -4,7 +4,6 @@
     --highlight: rgb(66,77,79);
     --backColor: rgb(167,184,181);
     --accentColor: rgb(254,245,216);
-    
 }
 
 a{
@@ -44,6 +43,25 @@ p{
 ul{
     margin: 0;
 }
+
+.textContent{
+  font-size: 18px;
+  border-radius: 5%;
+
+  text-align: center;
+  vertical-align: middle;
+
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 2vw;
+  padding-bottom: 2vh;
+
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+
+  background: var(--mainColor);
+}
+
 /*Nav bar*/
 .navBar{
     width: 100vw;
@@ -101,7 +119,7 @@ ul{
     float: right;
     margin-top:  3px;
     margin-bottom: 3px;
-    margin-right: 20px;
+    margin-right: 2%;
     margin-left: 3px;
     padding: 0;
     border: 2px solid var(--accentColor);
@@ -112,23 +130,6 @@ ul{
     vertical-align: middle;
 }
 
-.textContent{
-  font-size: 18px;
-  border-radius: 5%;
-
-  text-align: center;
-  vertical-align: middle;
-
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 2vw;
-  padding-bottom: 2vh;
-
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-
-  background: var(--mainColor);
-}
 /*Main Page*/
 .mainPic{
     float: right;
@@ -241,4 +242,16 @@ ul{
   .personal{
     margin-left: 5vw;
     margin-right: 35vw;
+  }
+
+  /* Resume */
+  .pdf{
+    width: 90%;
+    height: 50rem;
+    margin-left: 5%;
+  }
+
+  .resumeTitle{
+    display: flex;
+    justify-content: center;
   }
