@@ -47,12 +47,11 @@ ul{
   font-size: 18px;
   border-radius: 5%;
 
-  text-align: center;
   vertical-align: middle;
 
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 10px;
   padding-bottom: 2vh;
 
   margin-top: 5vh;
@@ -63,6 +62,22 @@ ul{
 
 .pageContent{
   margin-bottom: 75px;
+}
+
+.centered{
+  text-align: center;
+}
+
+.image{
+  width: auto;
+  height: 35vh;
+  position: relative;
+  float: right;
+  margin-top: 0;
+  margin-right: 4vw;
+  margin-bottom: 50px;
+  border: outset;
+  border-color: var(--accentColor);
 }
 
 /*Nav bar*/
@@ -265,6 +280,11 @@ ul{
     margin-right: 2vw;
   }
 
+  .car3{
+    margin-top: 3vh;
+    margin-right: 2vw;
+  }
+
   .personal{
     margin-left: 5vw;
     margin-right: 35vw;
@@ -281,4 +301,16 @@ ul{
   .resumeTitle{
     display: flex;
     justify-content: center;
+  }
+
+  /*Volunteering*/
+  .textContent.volunteering.list{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .volunteeringContent{
+    margin-left: 5vw;
+    margin-right: 35vw;
   }

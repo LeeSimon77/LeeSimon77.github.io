@@ -51,3 +51,5 @@ carousel = (function(carouselNum){
 })
 carousel('1');
 carousel('2');
+carousel('3');
+carousel('4');
